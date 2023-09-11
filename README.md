@@ -1,5 +1,6 @@
 # lidar
 Use a 15 Dollar LIDAR with Python (PyGame) connect to USB port  through TTL Serial adaptr FT232RL and get a radar image of 15 m of surrounding
+![mount_kuva](https://github.com/ReinhardLenz/lidar/assets/71219487/d7c1f67d-a1a3-4bd0-bc55-fdeac5711bd4)
 
 As an impulse buy, I bought a very cheap LIDAR. Partly also becuase I already saw from a youtube blogger that it is possible connect some lidars to the arduino. And even though the construction of the robot still seems like a too large project for me, well, I can still have dreams. ... to use servo motors, an arduino and other sensors to make such a nimble looking toy that can drive around my flat, and of course the Lidar would be the eye of the robot, so that it would not crash into doors and hurt himself, but my robot would always stop safely before any obstacle. This is still a complete dream. The hindrance is a lack of time and maybe also patience. I would probably need quite many weeks in a row to focus only on this, but I can't spend all weekends on this, after all, I have many other hobbies and other mandatory household chores. Anyway, this little project could be one little step forward on the long road to making my own robot. This is the link to where I bought this wonder device.
 
@@ -20,3 +21,7 @@ https://discord.com/channels/647756128058605581/861328431932768296
 
 
 The program as listed here is not exactly the same as the github program, but in addition to baudrate, I changed the pygame command set_at, which produces only a very faint dot on the screen, and replaced it with a rectangle pygame.draw.rect, which is much better visible. I also tried pygame.draw.circle, but it's just too slow, makes a lot of horizontal lines on the screen. I also changed the magnification factor, distancef = distance / 40 then when I want more details to be highlighted, my own face profile as an example, then I set this factor to 3. However, I am quite unfamiliar with pygame and the whole program is like Hebrew to me, especially this class State(Enum). I'll still have to get familiar with it.
+![connect](https://github.com/ReinhardLenz/lidar/assets/71219487/ecab28b1-b743-4f6c-a845-7cc43efa672d)
+
+
+https://www.youtube.com/watch?v=J1RYwebzSwI&t=4s
